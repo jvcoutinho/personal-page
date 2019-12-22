@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Girassol&display=swap');
+
+.navbar {
+    display: flex;
+    color: white;
+}
+
+#brand {
+    font-family: 'Girassol', cursive;
+    font-size: 30px;
+}
+
+.navbar-item {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
