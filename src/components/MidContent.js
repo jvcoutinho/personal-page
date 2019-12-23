@@ -22,7 +22,7 @@ const MidContent = () => {
 const buildMultiColorText = (text, colors) => {
     let result = ''
     for (let i = 0; i < text.length; i++) {
-        result += "<span style=\'color: " + colors[i % colors.length] + ";\'>" + text[i] + "</span>"
+        result += "<span style='color: " + colors[i % colors.length] + ";'>" + text[i] + "</span>"
     }
     return result
 }
