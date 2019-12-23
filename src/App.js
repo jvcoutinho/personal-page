@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Accordion from './components/Accordion';
 import Navbar from './components/Navbar'
+import MidContent from './components/MidContent'
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
+      <MidContent />
     </div>
   );
 }
