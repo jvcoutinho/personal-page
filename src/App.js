@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import MidContent from './components/MidContent'
 
-function App() {
+const App = () => {
   return (
     <div>
       <Navbar />
