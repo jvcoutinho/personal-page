@@ -3,6 +3,9 @@ import './MainContent.scss'
 import { Container, Row, Col } from 'react-bootstrap'
 import { GiArcher, GiSpellBook, GiMailbox } from 'react-icons/gi'
 import { IconContext } from 'react-icons'
+import AboutMe from './AboutMe'
+import Contact from './Contact'
+import Portfolio from './Portfolio'
 
 const contents = {
     ABOUT_ME: 'about',
@@ -54,10 +57,30 @@ class MainContent extends React.Component {
         )
     }
 
+    getBodyContent() {
+        switch (this.props.content) {
+            case contents.ABOUT_ME:
+                return <AboutMe />
+            case contents.PORTFOLIO:
+                return <Portfolio />
+            default:
+                return <Contact />
+        }
+    }
+
+    getBody() {
+        return (
+            <Container id="main-content-body">
+                {this.getBodyContent()}
+            </Container>
+        )
+    }
+
     render() {
         return (
             <Container id="main-content">
                 {this.getHeader()}
+                {this.getBody()}
             </Container>
         )
     }

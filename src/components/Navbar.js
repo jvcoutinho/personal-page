@@ -11,14 +11,14 @@ export default class Navbar extends React.Component {
 
     render() {
         return (
-            <BNavbar id="navbar" variant="dark" expand="sm">
+            <BNavbar id="navbar" variant="dark" expand="sm" fixed="top">
                 <Container>
                     <BNavbar.Brand href="#home" id="brand">João Coutinho</BNavbar.Brand>
                     <BNavbar.Toggle aria-controls="basic-navbar-nav" />
                     <BNavbar.Collapse id="basic-navbar-nav">
                         <Container className="justify-content-end">
                             <Nav navbar fill>
-                                <Nav.Link className="navbar-item" onClick={() => this.props.handleClick('')}>Home</Nav.Link>
+                                <Nav.Link className="navbar-item" onClick={() => this.props.handleClick('')} active>Home</Nav.Link>
                                 <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.ABOUT_ME)}>About me</Nav.Link>
                                 <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.PORTFOLIO)}>Portfolio</Nav.Link>
                                 <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.CONTACT)}>Contact</Nav.Link>

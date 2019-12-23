@@ -7,6 +7,7 @@
     background-color: $color3;
     margin-top: 15%;
     padding: 0;
+    margin-bottom: 3%;
 }
 
 #main-content-header {
@@ -18,4 +19,9 @@
     font-weight: bold;
     color: $color1;
     font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.main-content-body {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
