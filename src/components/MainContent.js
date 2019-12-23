@@ -10,16 +10,12 @@ const contents = {
     CONTACT: 'contact'
 }
 
-export default class MainContent extends React.Component {
-
-    state = {
-        content: contents.ABOUT_ME
-    }
+class MainContent extends React.Component {
 
     getHeaderContent() {
         let text
         let icon
-        switch (this.state.content) {
+        switch (this.props.content) {
             case contents.ABOUT_ME:
                 text = 'About me'
                 icon = <GiArcher />
@@ -66,4 +62,8 @@ export default class MainContent extends React.Component {
         )
     }
 
+}
+
+export {
+    MainContent, contents
 }
