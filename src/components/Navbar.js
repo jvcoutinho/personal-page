@@ -6,14 +6,15 @@ import './Navbar.scss'
 
 const Navbar = () => {
     return (
-        <BNavbar id="navbar" bg="dark" variant="dark" expand="sm">
+        <BNavbar id="navbar" variant="dark" expand="sm">
             <Container>
-                <BNavbar.Brand href="#home" id="brand">João Victor</BNavbar.Brand>
+                <BNavbar.Brand href="#home" id="brand">João Coutinho</BNavbar.Brand>
                 <BNavbar.Toggle aria-controls="basic-navbar-nav" />
                 <BNavbar.Collapse id="basic-navbar-nav">
                     <Container className="justify-content-end">
                         <Nav navbar fill>
                             <Nav.Link href="#home" className="navbar-item" active>Home</Nav.Link>
+                            <Nav.Link href="#home" className="navbar-item">About me</Nav.Link>
                             <Nav.Link href="#features" className="navbar-item" disabled>Portfolio</Nav.Link>
                             <Nav.Link href="#features" className="navbar-item" disabled>Contact</Nav.Link>
                         </Nav>
