@@ -1,7 +1,7 @@
 import React from 'react'
 import './MidContent.scss'
 import Typewriter from 'typewriter-effect'
-import { Button, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const MidContent = () => {
     let gameProgrammerText = buildMultiColorText('Game', ["#05e9e8", "#ff890b", "#dc80b1", "#e91313"]) + ' Programmer'

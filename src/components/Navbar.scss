@@ -1,9 +1,9 @@
-@import url('./Global.scss');
+@import "./Global.scss";
 
 .navbar {
     display: flex;
     color: white;
-    background-color: #102542;
+    background-color: $color1;
 }
 
 #brand {
