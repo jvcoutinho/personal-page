@@ -15,7 +15,8 @@
     "react-native-elements": "^1.2.7",
     "react-scripts": "3.3.0",
     "sass": "^1.23.7",
-    "serialize-javascript": "2.1.1"
+    "serialize-javascript": "2.1.1",
+    "typewriter-effect": "^2.12.1"
   },
   "scripts": {
     "predeploy": "yarn build",

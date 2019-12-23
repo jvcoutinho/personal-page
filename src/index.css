@@ -5,10 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./assets/cornell-box.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/cornell-box.png');
   background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
+
 }
 
 code {
