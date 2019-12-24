@@ -1,0 +1,31 @@
+[
+    {
+        "type": "Game Development",
+        "projects": [
+            {
+                "name": "Daedalus",
+                "thumbPath": "assets/me.jpg",
+                "description": "Hypercasual game made in Unity Engine consisting in surviving an infinite maze.",
+                "published": true
+            },
+            {
+                "name": "O Bom Mau Sentimento",
+                "thumbPath": "",
+                "description": "Puzzle game. made in Godot Engine consisting in fighting against.",
+                "published": true
+            },
+            {
+                "name": "O Bom Mau Sentimento",
+                "thumbPath": "",
+                "description": "Puzzle game. made in Godot Engine consisting in fighting against.",
+                "published": true
+            },
+            {
+                "name": "O Bom Mau Sentimento",
+                "thumb-path": "",
+                "description": "Puzzle game. made in Godot Engine consisting in fighting against.",
+                "published": true
+            }
+        ]
+    }
+]

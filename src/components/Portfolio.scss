@@ -1,0 +1,29 @@
+@import "./MainContent.scss";
+@import "./Global.scss";
+
+#portfolio-header {
+    border-bottom: 15px solid $color1;
+    padding-bottom: 15px;
+}
+
+.portfolio-section {
+    margin-top: 0px;
+    background-color: $color1;  
+}
+
+.portfolio-section-header {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.portfolio-projects {
+    margin: 0px;
+}
+
+.projects-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-card {
+     width: 14rem;
+}
