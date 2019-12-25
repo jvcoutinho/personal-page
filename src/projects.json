@@ -3,10 +3,11 @@
         "name": "Daedalus",
         "type": "Game Development",
         "thumbPath": "assets/projects/icon_daedalus.png",
-        "description": "Daedalus had built a maze, but it locked him! Can you survive as long as possible without starving? Find a key and the door to pass to the next challenge. Collect coins, pies and some special items to survive in this hypercasual 2D game.",
+        "description": "Daedalus had built a maze, but it locked him! Can you survive as long as possible without starving? Find a key and the door to pass to the next challenge. Collect coins, pies and some special items to survive in this hypercasual 2D mobile game.",
         "technologies": [
             "Unity Engine"
         ],
+        "prizes": "Published temporarily by Manifesto Games in 2019",
         "link": ""
     },
     {
@@ -22,7 +23,6 @@
     {
         "name": "Infernal Tetris",
         "type": "Game Development",
-        "thumbPath": "",
         "description": "The classic puzzle, with a slight difference: the randomness will get crazy at some point. Can you score?",
         "technologies": [
             "Haskell",
@@ -33,12 +33,116 @@
     {
         "name": "Timber!!!",
         "type": "Game Development",
-        "thumb-path": "",
         "description": "Inspired by the classic Timberman, chop the maximum number of branches (following the music!) you can avoiding being smashed!",
         "technologies": [
             "JavaScript",
             "Spotify Web API"
         ],
         "link": "https://github.com/jvcoutinho/timber"
+    },
+    {
+        "name": "S3M",
+        "type": "Software Engineering",
+        "description": "Semistructured merge tool for Java.",
+        "technologies": [
+            "Java"
+        ],
+        "link": "https://github.com/jvcoutinho/jFSTMerge"
+    },
+    {
+        "name": "Mining Framework",
+        "type": "Software Engineering",
+        "description": "Extensible tool for mining and analysing Git projects, where the developer can implement a commit filter, a data analyser, a project preprocessor and an output processor.",
+        "technologies": [
+            "Groovy"
+        ],
+        "link": "https://github.com/jvcoutinho/miningframework"
+    },
+    {
+        "name": "Journi",
+        "type": "Sustainable Development",
+        "thumbPath": "assets/projects/journi-logo.png",
+        "description": "A platform to help students to choose an university and a course based on its expectatives, with collaboration of people already inside these environments.",
+        "technologies": [
+            "Node.js",
+            "Firebase",
+            "Vue"
+        ],
+        "prizes": "Gained Honorable Mention of Best General Project in 2019 at Porto Digital - Recife",
+        "link": "https://github.com/Projetao-2019-2",
+        "role": "Project Manager"
+    },
+    {
+        "name": "Bézier Curves Intersection",
+        "type": "Computer Graphics",
+        "description": "An interactive tool to create and modify up to two Bézier curves, also highlighting their intersection points.",
+        "technologies": [
+            "JavaScript"
+        ],
+        "link": "https://github.com/jvcoutinho/bezier-curves-intersection"
+    },
+    {
+        "name": "Random Texture by Coloration",
+        "type": "Computer Graphics",
+        "description": "An interactive tool to build a 3D object and apply a random texture on it by choosing colors.",
+        "technologies": [
+            "Java"
+        ],
+        "link": "https://github.com/jvcoutinho/textura-aleatoria-coloracao2"
+    },
+    {
+        "name": "Path Tracer",
+        "type": "Computer Graphics",
+        "description": "A path tracer that renders a given input scene, solving Kagiya's Rendering Equation using Monte Carlo integration technique.",
+        "technologies": [
+            "Haskell"
+        ],
+        "link": "https://github.com/jvcoutinho/PathTracer"
+    },
+    {
+        "name": "Online Search",
+        "type": "Artificial Intelligence",
+        "description": "An interactive tool to transport a robot from a starting point to an end point, implementing A* algorithm.",
+        "technologies": [
+            "Java",
+            "Mobilesim"
+        ],
+        "link": "https://github.com/jvcoutinho/online-search-mobilesim"
+    },
+    {
+        "name": "Logic Calculator",
+        "type": "Mathematical Logic",
+        "description": "A calculator to solve instances of The Satisfiability Problem for both Propositional and First-Order Logic, implementing the Resolution Method.",
+        "technologies": [
+            "React"
+        ],
+        "link": "https://github.com/jvcoutinho/online-search-mobilesim"
+    },
+    {
+        "name": "Apostila de Lógica",
+        "type": "Mathematical Logic",
+        "description": "A material to help Mathematical Logic for Computation students, teaching in a more understadable way hard concepts.",
+        "technologies": [
+            "LaTeX"
+        ],
+        "link": "https://drive.google.com/file/d/1nrVqkQG2UXLK_cndGNvanPQfciUdm7Gz/view?usp=sharing"
+    },
+    {
+        "name": "Transfer",
+        "type": "Network Science",
+        "description": "An interactive tool to transfer multiple files between two end points.",
+        "technologies": [
+            "Java"
+        ],
+        "link": "https://github.com/jvcoutinho/Transfer"
+    },
+    {
+        "name": "Flame",
+        "type": "Network Science",
+        "description": "Message-oriented middleware for streaming.",
+        "technologies": [
+            "Go"
+        ],
+        "link": "https://github.com/jvcoutinho/flame"
     }
 ]
