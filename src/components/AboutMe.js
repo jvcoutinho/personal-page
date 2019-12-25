@@ -2,6 +2,8 @@ import React from 'react'
 import './AboutMe.scss'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Image } from 'react-bootstrap'
+import { IconContext } from 'react-icons'
+import { GiWyvern, GiWingedSword, GiCapricorn, GiMusicSpell, GiComputing, GiCaesar } from 'react-icons/gi'
 
 const AboutMe = () => {
     return (
@@ -73,10 +75,35 @@ const text = () => {
                         I also have good communication skills (I love teaching!), being able to say what I'm thinking in a clear way, and good team work principles (integrating the base or leading).
                     </p>
                 </Col>
-                <Col>
+                <Col className="d-none d-sm-none d-md-block">
+                    <p>
+                        {renderIcon(<GiWyvern />)}
+                    </p>
+                    <p>
+                        {renderIcon(<GiCapricorn />)}
+                    </p>
+                    <p>
+                        {renderIcon(<GiMusicSpell />)}
+                    </p>
+                    <p>
+                        {renderIcon(<GiComputing />)}
+                    </p>
+                    <p>
+                        {renderIcon(<GiCaesar />)}
+                    </p>
                 </Col>
             </Row>
         </Container>
+    )
+}
+
+const renderIcon = icon => {
+    return (
+        <IconContext.Provider value={{
+            size: "100px"
+        }}>
+            {icon}
+        </IconContext.Provider>
     )
 }
 
