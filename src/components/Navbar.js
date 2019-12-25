@@ -1,12 +1,12 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import BNavbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import './Navbar.scss'
-import { FaLinkedin, FaFacebook, FaTwitter, FaGithub, FaMailBulk, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
+import { FaLinkedin, FaFacebook, FaTwitter, FaGithub, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 import { IconContext } from "react-icons";
 import { contents } from './MainContent'
-import { Overlay, OverlayTrigger, Tooltip } from 'react-bootstrap'
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 export default class Navbar extends React.Component {
 

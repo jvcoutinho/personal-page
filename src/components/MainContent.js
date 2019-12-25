@@ -1,7 +1,7 @@
 import React from 'react'
 import './MainContent.scss'
 import { Container, Row, Col } from 'react-bootstrap'
-import { GiArcher, GiSpellBook, GiMailbox } from 'react-icons/gi'
+import { GiArcher, GiSpellBook } from 'react-icons/gi'
 import { IconContext } from 'react-icons'
 import AboutMe from './AboutMe'
 import Portfolio from './Portfolio'
