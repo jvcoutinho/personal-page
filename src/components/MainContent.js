@@ -4,13 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { GiArcher, GiSpellBook, GiMailbox } from 'react-icons/gi'
 import { IconContext } from 'react-icons'
 import AboutMe from './AboutMe'
-import Contact from './Contact'
 import Portfolio from './Portfolio'
 
 const contents = {
     ABOUT_ME: 'about',
-    PORTFOLIO: 'portfolio',
-    CONTACT: 'contact'
+    PORTFOLIO: 'portfolio'
 }
 
 class MainContent extends React.Component {
@@ -23,13 +21,10 @@ class MainContent extends React.Component {
                 text = 'About me'
                 icon = <GiArcher />
                 break
-            case contents.PORTFOLIO:
+            default:
                 text = 'Portfolio'
                 icon = <GiSpellBook />
                 break
-            default:
-                text = 'Contact'
-                icon = <GiMailbox />
         }
         return { text, icon }
     }
@@ -61,10 +56,8 @@ class MainContent extends React.Component {
         switch (this.props.content) {
             case contents.ABOUT_ME:
                 return <AboutMe />
-            case contents.PORTFOLIO:
-                return <Portfolio />
             default:
-                return <Contact />
+                return <Portfolio />
         }
     }
 
