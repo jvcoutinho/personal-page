@@ -45,7 +45,7 @@ class MainContent extends React.Component {
                         </IconContext.Provider>
                     </Col>
                     <Col className="mx-md-n3">
-                        {text}
+                        <span id={this.props.content}>{text}</span>
                     </Col>
                 </Row>
             </Container>

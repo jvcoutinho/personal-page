@@ -27,8 +27,8 @@ export default class Navbar extends React.Component {
                     <BNavbar.Collapse id="basic-navbar-nav">
                         <Container className="justify-content-end">
                             <Nav navbar fill>
-                                <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.ABOUT_ME)}>About me</Nav.Link>
-                                <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.PORTFOLIO)}>Portfolio</Nav.Link>
+                                <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.ABOUT_ME)} href="#about">About me</Nav.Link>
+                                <Nav.Link className="navbar-item" onClick={() => this.props.handleClick(contents.PORTFOLIO)} href="#portfolio">Portfolio</Nav.Link>
                                 {this.renderCopiableSocialIcon("jvsfc@cin.ufpe.br", <FaEnvelope />)}
                                 {this.renderCopiableSocialIcon("+5587996834996", <FaWhatsapp />)}
                                 {this.renderClickableSocialIcon("https://fb.com/jvcoutinho13", <FaFacebook />)}
