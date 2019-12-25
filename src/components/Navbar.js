@@ -20,7 +20,7 @@ export default class Navbar extends React.Component {
 
     render() {
         return (
-            <BNavbar id="navbar" variant="dark" expand="sm" fixed="top">
+            <BNavbar id="navbar" variant="dark" expand="md" fixed="top">
                 <Container>
                     <BNavbar.Brand href="#home" id="brand">João Coutinho</BNavbar.Brand>
                     <BNavbar.Toggle aria-controls="basic-navbar-nav" />
