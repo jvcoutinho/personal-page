@@ -69,6 +69,9 @@ const text = () => {
                         with good knowledge and contributions of mine in <b>game development</b>, <b>software enginnering</b>, <b>computer graphics</b>, <b>artificial intelligence</b> and <b>mathematical logic and computation</b>,
                         areas that I have fascination. I plan to finish the course in late 2020.
                     </p>
+                    <p>
+                        I also have good communication skills (I love teaching!), being able to say what I'm thinking in a clear way, and good team work principles (integrating the base or leading).
+                    </p>
                 </Col>
                 <Col>
                 </Col>

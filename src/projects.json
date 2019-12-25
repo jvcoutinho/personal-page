@@ -116,7 +116,7 @@
         "technologies": [
             "React"
         ],
-        "link": "https://github.com/jvcoutinho/online-search-mobilesim"
+        "link": "https://github.com/jvcoutinho/logic-calculator"
     },
     {
         "name": "Apostila de Lógica",
@@ -126,23 +126,5 @@
             "LaTeX"
         ],
         "link": "https://drive.google.com/file/d/1nrVqkQG2UXLK_cndGNvanPQfciUdm7Gz/view?usp=sharing"
-    },
-    {
-        "name": "Transfer",
-        "type": "Network Science",
-        "description": "An interactive tool to transfer multiple files between two end points.",
-        "technologies": [
-            "Java"
-        ],
-        "link": "https://github.com/jvcoutinho/Transfer"
-    },
-    {
-        "name": "Flame",
-        "type": "Network Science",
-        "description": "Message-oriented middleware for streaming.",
-        "technologies": [
-            "Go"
-        ],
-        "link": "https://github.com/jvcoutinho/flame"
     }
 ]
