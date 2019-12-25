@@ -1,31 +1,44 @@
 [
     {
+        "name": "Daedalus",
         "type": "Game Development",
-        "projects": [
-            {
-                "name": "Daedalus",
-                "thumbPath": "assets/me.jpg",
-                "description": "Hypercasual game made in Unity Engine consisting in surviving an infinite maze.",
-                "published": true
-            },
-            {
-                "name": "O Bom Mau Sentimento",
-                "thumbPath": "",
-                "description": "Puzzle game. made in Godot Engine consisting in fighting against.",
-                "published": true
-            },
-            {
-                "name": "O Bom Mau Sentimento",
-                "thumbPath": "",
-                "description": "Puzzle game. made in Godot Engine consisting in fighting against.",
-                "published": true
-            },
-            {
-                "name": "O Bom Mau Sentimento",
-                "thumb-path": "",
-                "description": "Puzzle game. made in Godot Engine consisting in fighting against.",
-                "published": true
-            }
-        ]
+        "thumbPath": "assets/projects/icon_daedalus.png",
+        "description": "Daedalus had built a maze, but it locked him! Can you survive as long as possible without starving? Find a key and the door to pass to the next challenge. Collect coins, pies and some special items to survive in this hypercasual 2D game.",
+        "technologies": [
+            "Unity Engine"
+        ],
+        "link": ""
+    },
+    {
+        "name": "O Bom Mau Sentimento",
+        "type": "Game Development",
+        "thumbPath": "assets/projects/icon-o-bom-mau-sentimento.jpg",
+        "description": "A boy is conflicting internally with Tristeza (Sadness) and his mind is currently a mess. Can you help him to find peace with this sentiment? Pass through the puzzles avoiding spikes and reach the end.",
+        "technologies": [
+            "Godot Engine"
+        ],
+        "link": "https://gamejolt.com/games/obommausentimento/427798"
+    },
+    {
+        "name": "Infernal Tetris",
+        "type": "Game Development",
+        "thumbPath": "",
+        "description": "The classic puzzle, with a slight difference: the randomness will get crazy at some point. Can you score?",
+        "technologies": [
+            "Haskell",
+            "Gloss"
+        ],
+        "link": "https://github.com/jvcoutinho/tetris"
+    },
+    {
+        "name": "Timber!!!",
+        "type": "Game Development",
+        "thumb-path": "",
+        "description": "Inspired by the classic Timberman, chop the maximum number of branches (following the music!) you can avoiding being smashed!",
+        "technologies": [
+            "JavaScript",
+            "Spotify Web API"
+        ],
+        "link": "https://github.com/jvcoutinho/timber"
     }
 ]

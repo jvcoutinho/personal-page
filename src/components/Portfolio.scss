@@ -2,12 +2,14 @@
 @import "./Global.scss";
 
 #portfolio-header {
-    border-bottom: 15px solid $color1;
+ 
     padding-bottom: 15px;
 }
 
 .portfolio-section {
     margin-top: 0px;
+    padding: 20px;
+
     background-color: $color1;  
 }
 
@@ -19,11 +21,10 @@
     margin: 0px;
 }
 
-.projects-row {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.project-card {
+    background-color: red;
 }
 
-.project-card {
-     width: 14rem;
+.card-link {
+    color: $color1;
 }

@@ -1,7 +1,6 @@
 import React from 'react'
-import { Container, Row, Card, Col, Form } from 'react-bootstrap'
-import sections from '../projects.json'
-import arrayChunk from 'lodash/chunk'
+import { Container, Card, Col, Form, CardColumns } from 'react-bootstrap'
+import projects from '../projects.json'
 import './Portfolio.scss'
 
 export default class Portfolio extends React.Component {
@@ -15,10 +14,12 @@ export default class Portfolio extends React.Component {
 
     getCategories() {
         let categories = []
-        sections.forEach(section => {
-            categories.push(<option>{section.type}</option>)
+        projects.forEach(project => {
+            let category = project.type
+            if (!categories.includes(category))
+                categories.push(category)
         })
-        return categories
+        return categories.map(category => <option>{category}</option>)
     }
 
     buildPortfolioHeader() {
@@ -39,47 +40,54 @@ export default class Portfolio extends React.Component {
         )
     }
 
-    buildPortfolioSection(section) {
-        if (!(section.type === this.state.type || this.state.category_chosen === "All"))
-            return null
-
-        let chunkProjects = arrayChunk(section.projects, 4)
+    buildPortfolioGrid() {
         return (
-            <Container className="portfolio-section">
-                <Container className="portfolio-projects">
-                    {chunkProjects.map((projects) => (
-                        <Row className="projects-row">
-                            {projects.map((project) =>
-                                <Col className="d-flex justify-content-center">
-                                    {this.renderProjectCard(project)}
-                                </Col>
-                            )}
-                        </Row>
-                    ))}
-                </Container>
-            </Container>
+            <CardColumns className="portfolio-section">
+                {
+                    projects
+                        .sort((e1, e2) => e1.name < e2.name ? -1 : e1.name === e2.name ? 0 : 1)
+                        .filter(project => project.type === this.state.type || this.state.category_chosen === "All")
+                        .map(project => this.renderProjectCard(project))
+                }
+            </CardColumns>
         )
     }
 
     renderProjectCard(project) {
+        if (!(project.type === this.state.type || this.state.category_chosen === "All"))
+            return null
+
+        let cardImg = project.thumbPath !== "" ? <Card.Img variant="top" src={project.thumbPath} /> : null
         return (
-            <Card className="project-card">
-                <Card.Img variant="top" src={project.thumbPath} />
+            <Card>
+                {cardImg}
                 <Card.Body>
-                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Title><a href={project.link} class="stretched-link card-link" target="_blank" rel="noopener noreferrer">{project.name}</a></Card.Title>
                     <Card.Text class="project-card-text">
-                        {project.description}
+                        <p>{project.description}</p>
                     </Card.Text>
                 </Card.Body>
-            </Card>
+                <Card.Footer className="text-muted">{project.technologies.reduce((e1, e2, _) => e1 + " + " + e2)}</Card.Footer>
+            </Card >
         )
+    }
+
+    getTechnologiesIcon(technology) {
+        switch (technology) {
+            case "Unity Engine":
+
+                break;
+
+            default:
+                break;
+        }
     }
 
     render() {
         return (
             <Container className="main-content-body">
                 {this.buildPortfolioHeader()}
-                {sections.map((section, _) => this.buildPortfolioSection(section))}
+                {this.buildPortfolioGrid()}
             </Container>
         )
     }
