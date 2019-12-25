@@ -3,7 +3,7 @@ import './AboutMe.scss'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Image } from 'react-bootstrap'
 import { IconContext } from 'react-icons'
-import { GiWyvern, GiWingedSword, GiCapricorn, GiMusicSpell, GiComputing, GiCaesar } from 'react-icons/gi'
+import { GiWyvern, GiCapricorn, GiMusicSpell, GiComputing, GiCaesar } from 'react-icons/gi'
 
 const AboutMe = () => {
     return (
