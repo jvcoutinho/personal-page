@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-page/static/css/main.3a3d7a24.chunk.css",
+    "main.css": "/personal-page/static/css/main.e074b637.chunk.css",
     "main.js": "/personal-page/static/js/main.b0f92e7f.chunk.js",
     "main.js.map": "/personal-page/static/js/main.b0f92e7f.chunk.js.map",
     "runtime-main.js": "/personal-page/static/js/runtime-main.4051e6e2.js",
@@ -9,18 +9,18 @@
     "static/js/2.4be3d493.chunk.js": "/personal-page/static/js/2.4be3d493.chunk.js",
     "static/js/2.4be3d493.chunk.js.map": "/personal-page/static/js/2.4be3d493.chunk.js.map",
     "index.html": "/personal-page/index.html",
-    "precache-manifest.a34e93a2a4c0cc612e6798c35a7ce78f.js": "/personal-page/precache-manifest.a34e93a2a4c0cc612e6798c35a7ce78f.js",
+    "precache-manifest.36f7c46de93ba5c3d3068d8da7f2b822.js": "/personal-page/precache-manifest.36f7c46de93ba5c3d3068d8da7f2b822.js",
     "service-worker.js": "/personal-page/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/personal-page/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.3a3d7a24.chunk.css.map": "/personal-page/static/css/main.3a3d7a24.chunk.css.map",
+    "static/css/main.e074b637.chunk.css.map": "/personal-page/static/css/main.e074b637.chunk.css.map",
     "static/js/2.4be3d493.chunk.js.LICENSE": "/personal-page/static/js/2.4be3d493.chunk.js.LICENSE",
-    "static/media/index.css": "/personal-page/static/media/cornell-box.2b27c524.png"
+    "static/media/index.css": "/personal-page/static/media/cornell_box_image01.85bbde6a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4051e6e2.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.4be3d493.chunk.js",
-    "static/css/main.3a3d7a24.chunk.css",
+    "static/css/main.e074b637.chunk.css",
     "static/js/main.b0f92e7f.chunk.js"
   ]
 }
